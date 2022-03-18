@@ -2,7 +2,7 @@ import React from 'react';
 import style from './style.module.css';
 
 
-const Index = ({ todo, handleDelete, handleCheck }) => {
+const Todo = ({ todo, handleDelete, handleCheck }) => {
 
     return (
         <div className={style.list}>
@@ -17,4 +17,4 @@ const Index = ({ todo, handleDelete, handleCheck }) => {
     );
 }
 
-export default Index;
+export default Todo;

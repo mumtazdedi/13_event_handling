@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import style from './style.module.css';
 
-const Index = ({ setTodos }) => {
+const Input = ({ setTodos }) => {
     const [title, setTitle] = useState('');
     const [id, setId] = useState(0);
 
@@ -27,4 +27,4 @@ const Index = ({ setTodos }) => {
     );
 }
 
-export default Index;
+export default Input;
